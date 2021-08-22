@@ -9,5 +9,6 @@ use Illuminate\Support\Facades\Date;
 
 class Workshop extends Model
 {
-
+	protected $table = 'workshops';
+	protected $primaryKey = 'id';
 }
